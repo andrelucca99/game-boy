@@ -1,0 +1,45 @@
+.mudar-jogo {
+    width: 400px;
+    height: 350px;
+    padding: 10px;
+    background: #fff;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    border: 1px solid #ccc;
+    gap: 20px;
+}
+
+.mudar-jogo h4 {
+    color: #111;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.caixa-de-jogos { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.caixa-de-jogos img{
+    width: 90px;
+    height: 90px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.mario:hover,
+.pokemon:hover,
+.zelda:hover,
+.donkey:hover,
+.marioCart:hover,
+.smurfs:hover
+ {
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #000;
+    padding: 1px;
+}

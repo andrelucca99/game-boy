@@ -1,0 +1,78 @@
+const start = document.querySelector('.btn-start');
+const select = document.querySelector('.btn-reset');
+const tela = document.querySelector('.tela');
+const red = document.querySelector('.red');
+const yellow = document.querySelector('.yellow');
+const blue = document.querySelector('.blue');
+const branco = document.querySelector('.branco');
+const black = document.querySelector('.black');
+const caseConsole = document.querySelector('.case');
+const mario = document.querySelector('.mario');
+const pokemon = document.querySelector('.pokemon');
+const zelda = document.querySelector('.zelda');
+const donkey = document.querySelector('.donkey');
+const marioCart = document.querySelector('.marioCart');
+const ML = document.querySelector('.ML');
+const power = document.querySelector('#luz');
+
+start.addEventListener('click', () => {
+    tela.style.backgroundImage = "url('img/start.gif')";
+    tela.style.backgroundSize = "180px 150px";
+    power.style.background = '#D62B2B';
+})
+
+select.addEventListener('click', () => {
+    tela.style.background = 'rgb(100, 98, 98)';
+    power.style.background = '#3E3434';
+})
+
+red.addEventListener('click', () => {   
+    caseConsole.style.background = '#C6002D';
+})
+
+yellow.addEventListener('click', () => {
+    caseConsole.style.background = '#FFF71B';
+})
+
+blue.addEventListener('click', () => {
+    caseConsole.style.background = '#0F46B6';
+})
+
+branco.addEventListener('click', () => {
+    caseConsole.style.background = '#E8E8E8';
+})
+
+black.addEventListener('click', () => {
+    caseConsole.style.background = '#262626';
+})
+
+mario.addEventListener('click', () => {
+    tela.style.backgroundImage = "url('img/mario.gif')";
+    tela.style.backgroundSize = "180px 150px";
+})
+
+pokemon.addEventListener('click', () => {
+    tela.style.backgroundImage = "url('img/3.webp')";
+    tela.style.backgroundSize = "180px 150px";
+})
+
+zelda.addEventListener('click', () => {
+    tela.style.backgroundImage = "url('img/zelda.gif')";
+    tela.style.backgroundSize = "180px 150px";
+})
+
+donkey.addEventListener('click', () => {
+    tela.style.backgroundImage = "url('img/donkey.gif')";
+    tela.style.backgroundSize = "180px 150px";
+})
+
+marioCart.addEventListener('click', () => {
+    tela.style.backgroundImage = "url('img/marioCart-gif.webp')";
+    tela.style.backgroundSize = "180px 150px";
+})
+
+ML.addEventListener('click', () => {
+    tela.style.backgroundImage = "url('img/ml.gif')";
+    tela.style.backgroundSize = "180px 150px";
+})
+

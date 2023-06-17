@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <title>Game Boy Color</title>
+    <link rel="stylesheet" href="./css/global.css" />
+  </head>
+  <body>
+    <section class="container">
+      <section class="case">
+        <section class="borda-tela">
+          <div id="power">
+            <div id="luz">
+              <p>)))</p>
+            </div>
+            <p>POWER</p>
+          </div>
+          <section class="tela"></section>
+          <div class="marca">
+            <h2>GAME BOY</h2>
+            <div id="color">
+              <div id="red" style="color:#FF0000; margin-left: 10px">C</div>
+              <div id="roxo" style="color:#A00CA3;">O</div>
+              <div id="verde" style="color:#2C8C00;">L</div>
+              <div id="yellow" style="color:#FFF71B;">O</div>
+              <div id="azul" style="color:#0F46B6;">R</div>
+            </div>
+          </div>
+        </section>
+
+        <div id="logo">
+          <h2>Nintendo</h2>
+        </div>
+        <section class="conteudo-btn">
+          <section class="btn-left">
+            <div class="btn-vertical">
+              <button class="btn-v"></button>
+              <button class="btn-v" id="btn-central"></button>
+              <button class="btn-v"></button>
+            </div>
+            <div class="btn-horizontal">
+              <button class="btn-h"></button>
+              <button class="btn-h"></button>
+            </div>
+          </section>
+
+          <section class="btn-right">
+            <button class="btn-b">
+              <p>B</p>
+            </button>
+            <button class="btn-a">
+              <p>A</p>
+            </button>
+          </section>
+        </section>
+
+        <section class="play">
+          <button class="btn-select" onclick="turnOnConsole('select')"></button>
+          <button class="btn-start" onclick="turnOnConsole('start')"></button>
+        </section>
+        
+        <div class="text-btn">
+          <p>SELECT</p>
+          <p>START</p>
+        </div>
+
+        <section id="auto-falante">
+          <span>......</span>
+          <span>........</span>
+          <span>........</span>
+          <span>........</span>
+          <span>........</span>
+          <span>......</span>
+        </section>
+        
+    </section>
+
+      <section class="personalize">
+        <article class="mudar-cor">
+          <h4>Escolha a cor do console</h4>
+          <section class="caixa-de-cores">
+            <div class="red" onclick="selectedCor('red')" style="background-color:#FF0000;"></div>
+            <div class="yellow" onclick="selectedCor('yellow')" style="background-color:#FFF71B;"></div>
+            <div class="blue" onclick="selectedCor('blue')" style="background-color:#0F46B6;"></div>
+            <div class="green" onclick="selectedCor('green')" style="background-color:#00FF00;"></div>
+            <div class="black" onclick="selectedCor('black')" style="background-color:#262626;"></div>
+          </section>
+        </article>
+
+        <article class="mudar-jogo">
+          <h4>Escolha seu jogo</h4>
+          <section class="caixa-de-jogos">
+            <div class="mario" onclick="selectedGame('mario')">
+              <img src="img/mario.jpg" alt="">
+            </div>
+            <div class="pokemon" onclick="selectedGame('pokemon')">
+              <img src="img/pokemon.jpg" alt="">
+            </div>
+            <div class="zelda" onclick="selectedGame('zelda')">
+              <img src="img/zelda.jpeg" alt="">
+            </div>
+          </section>
+
+          <section class="caixa-de-jogos">
+            <div class="donkey" onclick="selectedGame('donkey')">
+              <img src="img/donkey.jpeg" alt="">
+            </div>
+            <div class="marioCart" onclick="selectedGame('marioCart')">
+              <img src="img/marioCart.webp" alt="">
+            </div>
+            <div class="smurfs" onclick="selectedGame('smurfs')">
+              <img src="img/smurfs.jpg" alt="">
+            </div>
+          </section>
+        </article>
+
+      </section>
+    </section>
+    <script src="js/script.js"></script>
+  </body>
+</html>

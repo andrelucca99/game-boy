@@ -1,0 +1,42 @@
+.mudar-cor {
+    width: 400px;
+    height: 120px;
+    display: flex;
+    background: #fff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    gap: 10px;
+    padding: 10px;  
+}
+
+.mudar-cor h4 {
+    color: #111;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.caixa-de-cores {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.caixa-de-cores:hover {
+    cursor: pointer;
+}
+
+.red,
+.yellow,
+.blue,
+.green,
+.black {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin: 5px;
+}

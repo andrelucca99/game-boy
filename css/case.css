@@ -1,0 +1,243 @@
+.case {
+    width: 300px;
+    height: 500px;
+    background: #fff;
+    margin: 20px auto;
+    border: 1px solid #000;
+    border-radius: 5px 5px 30px 30px;
+    box-shadow: 17px 2px 4px #111;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.borda-tela {
+    width: 250px;
+    height: 250px;
+    background: #000;
+    margin: 0px auto;
+    border-radius: 5px 5px 20px 20px;
+    padding: 30px;
+}
+
+.borda-tela > #power {
+    width: 35px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: -30px;
+    float: left;
+    padding: 5px;
+}
+
+.borda-tela > #power > #luz {
+    width: 10px;
+    height: 10px;
+    background: #3E3434;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.borda-tela > #power > #luz > p {
+    font-size: 8px;
+    color: #ccc;
+    margin-left: 15px;
+}
+
+.borda-tela > #power > p {
+    font-size: 6px;
+    color: #ccc;
+}
+
+.tela {
+    width: 180px;
+    height: 150px;
+    background: rgb(100, 98, 98);
+    margin: 0px auto;
+}
+
+#logo {
+    width: 100px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    box-shadow: 0px 0px 5px rgb(85, 83, 83);
+    margin-top: 10px;
+}
+
+#logo h2 {
+    padding: 2px;
+    font-size: 15px;
+    color: rgb(19, 14, 14);
+    text-align: center;
+}
+
+.marca {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.marca h2 {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 900;
+    margin-left: 15px;
+}
+
+#color {
+    width: 90px;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 900;
+}
+
+.conteudo-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 280px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.btn-left {
+    width: 80px;
+    height: 70px;
+    margin-left: 20px;
+}
+
+.btn-vertical {
+    width: 30px;
+    height: 80px;
+    background: #111;
+    margin: 0px auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn-v {
+    width: 20px;
+    height: 20px;
+    background: #111;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#btn-central {
+    width: 25px;
+    height: 25px;
+    background: #111;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 3px;
+}
+
+.btn-horizontal {
+    width: 80px;
+    height: 30px;
+    background: #111;
+    margin-top: -55px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn-h {
+    width: 20px;
+    height: 15px;
+    background: #111;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 8px 5px;
+}
+
+.btn-right {
+    width: 100px;
+    height: 70px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.btn-b,
+.btn-a {
+    width: 35px;
+    height: 35px;
+    background: #111;
+    box-shadow: 0px 0px 5px #000;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.btn-a {
+    margin-left: 20px;
+    margin-top: -30px;
+}
+
+.btn-right p{
+    text-align: center;
+    margin-top: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.play {
+    width: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+.btn-select,
+.btn-start {
+    border-radius: 10px;
+    width: 50px;
+    background: #000;
+    height: 15px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.text-btn {
+    padding: 10px;
+    width: 115px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:-30px;
+}
+
+.text-btn p {
+    color: #000;
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 0.8rem;
+    margin: -5px;
+}
+
+#auto-falante{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    margin-left: 200px;
+    margin-top: -50px;
+}
+
+#auto-falante span {
+    margin-bottom: -15px;
+    font-size: 20px;
+    color: #000;
+}
