@@ -1,22 +1,24 @@
 .mudar-cor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
     width: 400px;
     height: 120px;
-    display: flex;
-    background: #fff;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background: var(--cor-white);
+    
+    padding: 10px;
     border-radius: 10px 10px 0 0;
-    border: 1px solid #ccc;
+    border: 1px solid var(--cor-gray);
     border-bottom: none;
-    gap: 10px;
-    padding: 10px;  
 }
 
 .mudar-cor h4 {
-    color: #111;
-    font-size: 1.5rem;
     margin-top: 10px;
+    color: var(--cor-black-1);
+    font-size: var(--f-size-0);
 }
 
 .caixa-de-cores {
@@ -36,7 +38,7 @@
 .black {
     width: 50px;
     height: 50px;
-    border: 1px solid #000;
-    border-radius: 50%;
     margin: 5px;
+    border: 1px solid var(--cor-black);
+    border-radius: 50%;
 }
