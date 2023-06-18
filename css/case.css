@@ -1,52 +1,58 @@
 .case {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
     width: 300px;
     height: 500px;
-    background: #fff;
+    background: var(--cor-white);
+
     margin: 20px auto;
-    border: 1px solid #000;
-    border-radius: 5px 5px 30px 30px;
-    box-shadow: 17px 2px 4px #111;
     padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+    border: 1px solid var(--cor-black);
+    border-radius: 5px 5px 30px 30px;
+    box-shadow: 17px 2px 4px var(--cor-black-1);
 }
 
 .borda-tela {
     width: 250px;
     height: 250px;
-    background: #000;
+    background: var(--cor-black);
+
     margin: 0px auto;
-    border-radius: 5px 5px 20px 20px;
     padding: 30px;
+    border-radius: 5px 5px 20px 20px;
 }
 
 .borda-tela > #power {
     width: 35px;
     height: 50px;
+
     margin-top: 20px;
     margin-left: -30px;
-    float: left;
     padding: 5px;
+    float: left;
 }
 
 .borda-tela > #power > #luz {
     width: 10px;
     height: 10px;
     background: #3E3434;
-    border-radius: 50%;
+
     margin-bottom: 5px;
+    border-radius: 50%;
 }
 
 .borda-tela > #power > #luz > p {
-    font-size: 8px;
-    color: #ccc;
+    color: var(--cor-gray);
+    font-size: var(--f-size-3);
     margin-left: 15px;
 }
 
 .borda-tela > #power > p {
-    font-size: 6px;
-    color: #ccc;
+    color: var(--cor-gray);
+    font-size: var(--f-size-3);
 }
 
 .tela {
@@ -58,17 +64,17 @@
 
 #logo {
     width: 100px;
-    border-radius: 20px;
-    border: 1px solid #000;
-    box-shadow: 0px 0px 5px rgb(85, 83, 83);
     margin-top: 10px;
+    border-radius: 20px;
+    border: 1px solid var(--cor-black);
+    box-shadow: 0px 0px 5px rgb(85, 83, 83);
 }
 
 #logo h2 {
-    padding: 2px;
-    font-size: 15px;
     color: rgb(19, 14, 14);
+    font-size: var(--f-size-2);
     text-align: center;
+    padding: 2px;
 }
 
 .marca {
@@ -79,26 +85,28 @@
 }
 
 .marca h2 {
-    color: #fff;
-    font-size: 18px;
-    font-family: 'Poppins';
-    font-weight: 900;
+    color: var(--cor-white);
+    font-size: var(--f-size-1);
+    font-family: var(--f-family);
+    font-weight: var(--f-weight);
     margin-left: 15px;
 }
 
 #color {
-    width: 90px;
     display: flex;
     flex-direction: row;
-    font-size: 18px;
-    font-family: 'Poppins';
-    font-weight: 900;
+
+    width: 90px;
+    font-size: var(--f-size-1);
+    font-family: var(--f-family);
+    font-weight: var(--f-weight);
 }
 
 .conteudo-btn {
     display: flex;
-    flex-direction: row;
     align-items: center;
+    flex-direction: row;
+
     width: 280px;
     height: 100px;
     margin-top: 20px;
@@ -111,133 +119,138 @@
 }
 
 .btn-vertical {
-    width: 30px;
-    height: 80px;
-    background: #111;
-    margin: 0px auto;
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    width: 30px;
+    height: 80px;
+    background: var(--cor-black-1);
+
+    margin: 0px auto;
+    border-radius: 5px;
 }
 
 .btn-v {
     width: 20px;
     height: 20px;
-    background: #111;
+    background: var(--cor-black-1);
+    margin: 5px;
     border-radius: 5px;
     cursor: pointer;
-    margin: 5px;
 }
 
 #btn-central {
     width: 25px;
     height: 25px;
-    background: #111;
+    background: var(--cor-black-1);
+    margin-left: 3px;
     border-radius: 50%;
     cursor: pointer;
-    margin-left: 3px;
 }
 
 .btn-horizontal {
-    width: 80px;
-    height: 30px;
-    background: #111;
-    margin-top: -55px;
-    border-radius: 5px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+    width: 80px;
+    height: 30px;
+    margin-top: -55px;
+    background: var(--cor-black-1);
+    border-radius: 5px;
 }
 
 .btn-h {
     width: 20px;
     height: 15px;
-    background: #111;
+    background: var(--cor-black-1);
+    margin: 8px 5px;
     border-radius: 5px;
     cursor: pointer;
-    margin: 8px 5px;
 }
 
 .btn-right {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
     width: 100px;
     height: 70px;
     margin-left: 60px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
 }
 
 .btn-b,
 .btn-a {
     width: 35px;
     height: 35px;
-    background: #111;
-    box-shadow: 0px 0px 5px #000;
-    border-radius: 50%;
+    background: var(--cor-black-1);
     margin-top: 10px;
+    box-shadow: 0px 0px 5px var(--cor-black);
+    border-radius: 50%;
 }
 
 .btn-a {
-    margin-left: 20px;
     margin-top: -30px;
+    margin-left: 20px;
 }
 
 .btn-right p{
-    text-align: center;
     margin-top: 5px;
-    color: #fff;
+    color: var(--cor-white);
+    text-align: center;
     cursor: pointer;
 }
 
 .play {
-    width: 120px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 120px;
     margin: 30px auto;
 }
 
 .btn-select,
 .btn-start {
-    border-radius: 10px;
     width: 50px;
-    background: #000;
     height: 15px;
-    width: 50px;
+    background: var(--cor-black);
+    border-radius: 10px;
     cursor: pointer;
 }
 
 .text-btn {
-    padding: 10px;
-    width: 115px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+
+    width: 115px;
     margin-top:-30px;
+    padding: 10px;
 }
 
 .text-btn p {
-    color: #000;
-    font-family: 'Poppins';
-    font-weight: 800;
-    font-size: 0.8rem;
     margin: -5px;
+    color: var(--cor-black);
+    font-size: var(--f-size-2);
+    font-family: var(--f-family);
+    font-weight: var(--f-weight);
 }
 
 #auto-falante{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 70px;
+
     width: 70px;
-    margin-left: 200px;
+    height: 70px;
     margin-top: -50px;
+    margin-left: 200px;
 }
 
 #auto-falante span {
     margin-bottom: -15px;
-    font-size: 20px;
-    color: #000;
+    color: var(--cor-black);
+    font-size: var(--f-size-0);
 }
